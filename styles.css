@@ -1,0 +1,41 @@
+@import url("styles/header.css");
+@import url("styles/banner.css");
+@import url("styles/carrossel.css");
+@import url("styles/informações.css");
+@import url("styles/footer.css");
+@import url("styles/pacotes.css");
+
+:root {
+
+    --cor-de-fundo: #EBECEE;
+    --branco-principal: #FFF;
+    --marrom: #623e2a;
+    --fonte-principal: "Kalnia";
+    --fonte-secundaria: "Playfair Display";
+    --marrom-degrade: linear-gradient(360deg, #623e2a 35.49%, #000000 165.37%);
+    --marrom-degrade2: linear-gradient(45deg, #623e2a 35.49%, #000000 165.37%);
+    --laranja-degrade: linear-gradient(360deg, #F08D1F 35.49%, #000000 165.37%);
+    --amarelo-degrade: linear-gradient(360deg, #F0AA1F 35.49%, #000000 165.37%);
+    --amarelo-claro-degrade: linear-gradient(360deg, #F0c31F 35.49%, #000000 165.37%);
+    --amarelo-claro-degrade2: linear-gradient(180deg, #F0c31F 35.49%, #000000 165.37%);
+    --diamante: #3887BE;
+    --diamante2: #164863;
+    --diamante-degrade: linear-gradient(360deg, #164863 35.49%, #000000 165.37%);
+    --esmeralda: #8ADAB2;
+    --esmeralda2: #026842;
+    --esmeralda-degrade: linear-gradient(360deg, #026842 35.49%, #000000 165.37%);
+    --laranja-claro: #F08D1F;
+    --amarelo:#F0C31F;
+    --preto:#000000;
+    --laranja: #F0441F;
+    --amarelo-escuro: #F0AA1F;
+
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+    font-family: var(--fonte-secundaria);
+    font-size:16px;
+    font-weight: 400;
+}
+

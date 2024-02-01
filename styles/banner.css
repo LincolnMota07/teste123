@@ -1,0 +1,421 @@
+.banner {
+   background: url(../assets/img/noivos-felizes.jpg);
+    background-repeat: no-repeat ;
+    background-size: cover;
+    padding: 2em 0.5em;
+    color: var(--branco-principal);
+    text-align: center;
+    margin: 0.4em 0;
+    font-weight: 400; 
+   
+}
+
+.banner__titulo{
+    font-size: 18px;
+    font-weight: 700;
+    padding-top: 5em;
+}
+
+
+.banner__texto{
+    font-weight: 500;
+    margin: 1em 1.5em 1.5em 1.5em;
+    font-size: 14px;
+    
+}
+#botao-banner {
+    padding: 0.6em 1em;
+    font-size: 14px;
+}
+
+.card__descrição {
+    display: flex;
+    align-items: center;
+    line-height: 20px;
+
+}
+
+.descrição__imagem {
+    width: 100%;
+    border: 1px solid var(--laranja-claro);
+    border-radius: 16px 0px 16px 0px;
+    box-shadow: 0px 0px 10px rgba(10, 10, 10, 0.8);
+    
+}
+
+.descrição__titulo {
+    font-size: 14px;
+    color: var(--laranja);
+}
+
+.descrição__texto {
+    margin-right: 0.5em;
+    font-size: 14px;
+    margin-top: 0.5em;
+}
+
+.banner2 {
+    background: var(--marrom-degrade);
+    color: var(--branco-principal);
+    text-align: center;
+    padding: 1em;
+    color: var(--branco-principal);
+   
+}
+
+
+.banner2__titulo2{
+    font-weight: 300;
+    margin: 0.5em 0;
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--branco-principal);
+}
+
+.slide__legenda,
+.slide__legenda2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: var(--marrom);
+    margin-bottom: 0.5em;
+    
+}
+
+.slide__legenda2{
+    color: var(--laranja-claro);
+}
+
+.lista-banner {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1em;
+
+}
+
+.item-banner{
+    text-decoration: none;
+    background-color: var(--branco-principal);
+    color: var(--branco-principal);
+    padding: 1em;
+
+}
+
+.item-banner__link {
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none;
+    color: var(--preto);
+}
+
+.banner2__descrição2{
+    background-color: var(--branco-principal);
+    
+}
+
+.lista-feedbacks {
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+    flex-wrap: wrap;
+}
+.banner3 {
+    font-family: var(--fonte-secundaria);
+    background: var(--marrom-degrade);
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    color: var(--branco-principal);
+    box-shadow: 0px 0px 10px rgba(10, 10, 10, 0.8);
+   
+}
+.lista-titulo {
+    font-weight: 700;
+    text-decoration: underline;
+    font-size: 20px;
+}
+.lista-texto {
+    font-size: 14px;
+    margin: 1em 0;
+}
+
+.lista-legenda {
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--laranja-claro);
+}
+
+.banner3__titulo {
+    text-align: center;
+    font-family: var(--fonte-principal);
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 0.5em 0;
+    color: var(--laranja-claro);
+}
+
+.banner3__subtitulo{
+    justify-content: center;
+    text-align: center;
+    padding: 0.5em 0;
+    font-weight: 500;
+}
+.banner3__img {
+    margin-top: 0.5em;
+}
+
+.banner3__botao {
+    display: block;
+    text-align: center;
+    margin-top: 1em;
+    padding-bottom: 1em;
+}
+.phone {
+    position: relative;
+    width: 365px; /* largura do celular */
+    height: 280px; /* altura do celular */
+    background-color: #000;
+    border: 4px solid var(--branco-principal);
+    border-radius: 8px; /* forma do celular */
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    display: block;
+    text-align: center;
+    margin: 0.5em 0 0.5em 0.5em
+
+  }
+  
+  video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  
+  button {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 0.5em;
+    border-radius: 4px;
+    background: var(--marrom-degrade2);
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .card-video{
+    background: var(--marrom-degrade);
+    box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    padding: 0.5em 0;
+    font-family: var(--fonte-secundaria);
+    color: var(--cor-de-fundo);
+  }
+
+  .card__titulo,
+  .card__texto {
+    padding: 0.5em 0.5em;
+    
+  }
+
+  .card__titulo {
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--laranja-claro);
+  }
+
+  .card__texto {
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: 400;
+  }
+
+
+
+
+@media screen and (min-width: 1024px) {
+    .banner {
+        padding: 15em 2em;
+    }
+
+    .banner2 {
+        padding: 2em 0em;
+    }
+    .banner__titulo {
+        font-size: 28px;
+    }
+    
+    .banner__texto {
+        margin-bottom: 2em;
+        font-size: 24px;
+    }
+
+    .banner2__titulo2,
+    .item-banner__link {
+        font-size: 30px;
+    }
+
+    .banner2__descrição2 {
+        font-size: 24px;
+    }
+
+    .slide__legenda2 {
+        font-size: 20px;
+    }
+
+
+
+    .item-banner__link:hover {
+        opacity: 0.7;
+    }
+
+    .banner3 {
+        padding: 2em 0em;
+        line-height: 26px;
+    }
+
+    .banner3__titulo {
+        font-size: 28px;
+    }
+
+    .banner3__subtitulo {
+        font-size: 24px;
+    }
+
+    .lista-titulo{
+        font-size: 24px;
+    }
+
+    .lista-texto,
+    .lista-legenda {
+        font-size: 20px;
+    }
+
+    .lista-texto {
+        padding: 1em 1em 0 0;
+    }
+
+    .lista-legenda {
+        margin-bottom: 1em;
+    }
+
+ 
+    .banner3__img {
+        width: 60%;
+        
+        
+    }
+
+    .card__descrição {
+        display: flex;
+        align-items: initial;
+        line-height: 32px;
+        
+    }
+
+    .descrição__texto {
+        font-size: 20px;
+        margin-top: 1em;
+    }
+
+    button:hover {
+        background-color: var(--laranja-claro);
+    }
+
+
+}
+
+@media screen and (min-width: 1728px) {
+    .banner {
+        padding: 12% 0%;
+        width: 100%;
+    }
+
+    .banner__titulo {
+        margin-top: 4em;
+        font-size: 40px;
+    }
+    
+    .banner__texto {
+        margin: 0.5em 0 1.5em 0;
+        font-size: 36px;
+    }
+
+    #botao-banner {
+        padding: 1em 2em;
+        font-size: 30px;
+    }
+
+    .banner2 {
+        padding: 1em 3em;
+    }
+
+    .banner3__titulo {
+
+        padding: 1em 0;
+  
+    }
+
+    .banner3__titulo,
+    .banner3__subtitulo {
+        font-size: 36px;
+    }
+
+    .lista-titulo {
+        font-size: 20px;
+        margin-top: 1.5em;
+        margin-left: 0.5em;
+        line-height: 24px;
+        
+    }
+
+    .lista-texto,
+    .lista-legenda {
+        font-size: 20px;
+        margin-left: 1.5em;
+        line-height: 28px;
+
+    }
+
+    .banner3__img {
+        width: 40%;
+    }
+
+    .banner3__subtitulo {
+        margin-top: 1em;
+    }
+
+    .banner3__img:hover {
+        transform: scale(1.05);
+    }
+
+    .descrição__titulo {
+        margin-left: 1.2em;
+    }
+
+    .descrição__imagem {
+        width: 65%;
+        margin: 0 3em;
+    }
+
+    .feedbacks {
+        display: flex;
+    }
+    .lista-feedbacks {
+        padding: 0 1em;
+        margin-left: 1.2em;
+    }
+
+    
+
+}
+

@@ -1,0 +1,157 @@
+
+.rodapé{
+    background: var(--marrom-degrade2);
+    padding: 1em ;
+    font-family: var(--fonte-principal);
+}
+
+.rodapé__titulo {
+    font-size: 18px;
+    color: var(--branco-principal);
+    text-align: center;
+    margin-top: 1em;
+}
+
+.rodapé__informações {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.rodapé__img {
+    margin: 1em 0;
+}
+
+#logo__rock {
+    width: 50px;
+   }
+   #logo__wpp {
+    width: 90px;
+   }
+   #logo__insta {
+    width: 70px;
+   }
+   #logo__casamentos {
+    width: 50px;
+   }
+
+   .rodapé__texto {
+    font-size: 18px;
+    color: var(--branco-principal);
+    font-weight: 500;
+    text-align: center;
+
+   }
+
+   .rodapé__link{
+    text-decoration: none;
+    color: var(--branco-principal);
+   }
+
+   .rodapé__contatos {
+    display: flex;
+    justify-content: space-around;
+    font-size: 14px;
+
+   }
+
+   .dev {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+   }
+   .dev__link {
+    margin: 2em 0;
+    font-size: 14px;
+    text-decoration: none;
+    color: var(--branco-principal);
+   }
+
+
+   @media screen and (min-width: 1024px) {
+    #logo__rock {
+        width: 100px;
+       }
+       #logo__wpp {
+        width: 130px;
+       }
+       #logo__insta {
+        width: 120px;
+       }
+       #logo__casamentos {
+        width: 100px;
+       }
+
+       .rodapé__titulo {
+        font-size: 28px;
+        margin-top: 1em;
+
+       }
+
+       .rodapé__link {
+        font-size: 26px;
+       }
+
+       .dev {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+       }
+       .dev__link {
+        margin: 1.5em 0;
+        font-size: 28px;
+        color: var(--branco-principal);
+        line-height: 36px;
+       }
+
+       .rodapé__img:hover {
+        transform: scale(1.1);
+
+       }
+
+       .rodapé__link:hover{
+
+        color: var(--laranja);
+        
+       }
+       .dev__link:hover {
+        color: var(--laranja);
+       }
+
+   }
+
+   @media screen and (min-width: 1728px) {
+
+    #logo__rock {
+        width: 150px;
+       }
+       #logo__wpp {
+        width: 190px;
+       }
+       #logo__insta {
+        width: 180px;
+       }
+       #logo__casamentos {
+        width: 150px;
+       }
+
+       .rodapé__titulo {
+        font-size: 28px;
+
+       }
+
+       .rodapé__link {
+        font-size: 36px;
+        margin: 2em 0;
+       }
+
+       .dev {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+       }
+       .dev__link {
+        margin: 2em 0;
+        font-size: 30px;
+       }
+
+   }

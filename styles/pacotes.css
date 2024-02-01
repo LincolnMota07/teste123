@@ -1,0 +1,250 @@
+.pacotes {
+    background-color: var(--laranja-claro);
+    width: 100%;
+    padding: 1em 0em;
+    text-align: center;
+    margin-top: 0.5em;
+}
+
+.pacotes2 {
+    background-color: var(--amarelo-escuro);
+    width: 100%;
+    padding: 1em 0;
+    text-align: center;
+    z-index: 2;
+    margin-top: 0.5em;
+}
+.pacotes3 {
+    background-color: var(--amarelo);
+    width: 100%;
+    padding: 1em 0;
+    text-align: center;
+    z-index: 2;
+    margin-top: 0.5em;
+}
+.pacotes4 {
+    background-color: var(--esmeralda2);
+    width: 100%;
+    padding: 1em 0;
+    text-align: center;
+    z-index: 2;
+    margin-top: 0.5em;
+}
+.pacotes5 {
+    background-color: var(--diamante2);
+    width: 100%;
+    padding: 1em 0;
+    text-align: center;
+    z-index: 2;
+    margin-top: 0.5em;
+}
+
+.pacotes__titulo{
+    text-align: center;
+    font-size: 36px;
+    color: var(--branco-principal);
+    padding: 0em 2.2em;
+    line-height: 36px;
+    font-weight: 700;
+}
+
+.pacotes__descrição{
+    background: url(../assets/img/bg-teste.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding-top: 0.5em;
+
+}
+
+.pacotes__descrição2{
+    background: url(../assets/img/foto-bg1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 0.5em 0.5em 1.5em 0.5em;
+
+}
+.pacotes__descrição2{
+    background: url(../assets/img/foto-bg1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 0.5em 0.5em 1.5em 0.5em;
+
+}
+.pacotes__descrição3{
+    background: url(../assets/img/noivos-felizes.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 0.5em;
+
+}
+
+.pacotes__descrição4{
+    background: url(../assets/img/foto-bg3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 0.5em 0.5em 1.5em 0.5em;
+
+}
+.pacotes__descrição5{
+    background: url(../assets/img/foto-bg2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 0.5em 0.5em 1.5em 0.5em;
+
+}
+
+.pacotes-lista{
+    padding: 0em 0 2em 0;
+}
+.pacotes-lista2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    padding: 0 2em;
+    gap: 0.3em;
+}
+.pacotes-titulo{
+    color: var(--laranja-claro);
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 0.3em;
+}
+.pacotes-titulo2{
+    color: var(--amarelo-escuro);
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 1em;
+}
+.pacotes-titulo3{
+    color: var(--amarelo);
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 0.2em;
+}
+.pacotes-titulo4{
+    color: var(--esmeralda);
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 0.2em;
+}
+.pacotes-titulo5{
+    color: var(--diamante);
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 0.2em;
+}
+
+.pacotes-drinks-autorais{
+    color: var(--branco-principal);
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 2em;
+}
+
+.rodapé-pacotes{
+    color: var(--branco-principal);
+    padding: 2em 1em;
+    background: var(--laranja-degrade);
+    text-align: center;
+
+}
+
+.rodapé-pacotes2{
+    color: var(--branco-principal);
+    padding: 2em 1em;
+    background: var(--amarelo-degrade);
+    text-align: center;
+
+}
+.rodapé-pacotes3{
+    color: var(--branco-principal);
+    padding: 2em 1em;
+    background: var(--amarelo-claro-degrade2);
+    text-align: center;
+
+}
+.rodapé-pacotes4{
+    color: var(--branco-principal);
+    padding: 2em 1em;
+    background: var(--esmeralda-degrade);
+    text-align: center;
+
+}
+.rodapé-pacotes5{
+    color: var(--branco-principal);
+    padding: 2em 1em;
+    background: var(--diamante-degrade);
+    text-align: center;
+
+}
+
+.pacotes__descrição__titulo {
+    line-height: 24px;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 1.5em;
+
+}
+
+.botao__pacote{
+    padding: 0.5em 0.5em;
+    background: var(--marrom-degrade);
+    text-decoration: none;
+    color: var(--branco-principal);
+    border-radius: 8px;
+
+}
+
+.pacotes-drinks{
+    color: var(--branco-principal);
+    padding: 0.5em;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.pacotes-drinks2{
+    color: var(--branco-principal);
+    padding: 0.5em;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.pacotes-drinks3{
+    color: var(--branco-principal);
+    padding: 0.5em;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+span{
+    font-size: 14px;
+    color: var(--branco-principal);
+    font-weight: 700;
+}
+
+#pagination{
+    background-color: transparent;
+    margin: 0;
+    padding: 0.3em;
+}
+.drinks-img{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1em;
+    padding: 1em 2em;
+    background: var(--amarelo-claro-degrade);
+}
+.foto-drink {
+    width: 30%;
+    border-radius: 8px;
+    background: var(--laranja-claro);
+}

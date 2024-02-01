@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Bar Bartender</title>
+    <link rel="icon" href="/assets/img/Logo Rockbar.png">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kalnia:wght@100..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+   <header class="cabecalho">
+    <div class="container">
+        <input type="checkbox" id="menu" class="container__botao">
+        <label for="menu" class="container__rotulo">
+            <span class="cabecalho__menu-hamburguer" class="cabecalho__imagem"></span>
+        </label>
+        <ul class="lista-menu">
+
+            <li class="lista-menu__item">
+                <a href="pacotes.html" class="lista-menu__link">PACOTES</a>
+            </li>
+            <li class="lista-menu__item">
+                <a href="#drinks" class="lista-menu__link">DRINKS</a>
+            </li>
+            <li class="lista-menu__item">
+                <a href="#estruturas" class="lista-menu__link">ESTRUTURAS</a>
+            </li>
+            <li class="lista-menu__item">
+                <a href="#contato" class="lista-menu__link">CONTATO</a>
+            </li>
+            <li class="lista-menu__item">
+                <a href="#" class="lista-menu__link" id="sobre-menu">SOBRE</a>
+            </li>
+        </ul>
+        <img src="/assets/img/Logo Rockbar.png" alt="Logo do Rockbar" class="cabecalho__imagem">
+        <h1 class="container__titulo"><b class="container__titulo--negrito">RockBar <br></b>Bartender</h1>
+    </div>
+    
+    <ul class="opções">
+        <li class="opções__item"><a href="#drinks" class="opções__link">Sobre</a></li>
+        <li class="opções__item"><a href="pacotes.html" class="opções__link">Pacotes</a></li>
+        <li class="opções__item"><a href="#drinks" class="opções__link">Drinks</a></li>
+        <li class="opções__item"><a href="#estruturas" class="opções__link">Estruturas</a></li>
+        <li class="opções__item"><a href="#contato" class="opções__link">Contato</a></li>
+    </ul>
+    <img src="/assets/img/logo-rock.png" alt="Logo do Rockbar" class="cabecalho__imagem__mobile"> 
+   </header>
+
+   <section class="banner">
+    <h2 class="banner__titulo">Quer ter uma festa incrível com os melhores drinks?!</h2>
+    <p class="banner__texto">Bem vindo ao Rock Bar, aqui você tem tudo isso e muito mais!!!</p>
+    <a href="#drinks"class="botoes__ancora" id="botao-banner">Conheça nossos drinks</a>
+   </section>
+   
+   <section class="apresentação">
+    <div class="card-video">
+        <h2 class="card__titulo">Sobre :</h2>
+        <p class="card__texto">Somos um bar especializado em eventos de todos os portes, desde pequenos encontros até grandes celebrações. Nossa missão é proporcionar experiências inesquecíveis por meio das melhores estruturas e dos profissionais mais qualificados. Conte conosco para tornar o seu evento verdadeiramente memorável.</p>
+        <div class="phone">           
+            <video id="myVideo" autoplay loop muted>
+              <source src="/assets/video/video-bar.mp4" type="video/mp4">
+              Seu navegador não suporta vídeo HTML5.
+            </video>
+            <div class="overlay"></div>
+            <button id="playPauseBtn">Pause</button>
+            </div>
+        </div>
+    </div>
+
+   </section>
+
+<section class="carrossel">
+<div class="card">
+    <!--1ª linha-->
+    <div class="card__descrição">
+        <!--1ª coluna-->
+        <div class="descrição"   id="drinks">
+            <h2 class="carrossel__titulo">Nossos Drinks :</h2>
+            <h3 class="descrição__titulo">Temos uma cartela de 10<span class="descrição__titulo__sublinhar"> DRINKS AUTORAIS</span>, sendo eles:</h3>
+            <h2 class="descrição__titulo-livro"></h2>
+
+        </div>
+        </div>
+        <p class="carrossel__texto"></p>
+        <div class="carrossel__card">
+            
+            <div class="swiper">
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide"><p class="slide__legenda">EVANESCENCE</p><img class="swiper-slide__imagem" src="/assets/img/evanscense.jpeg" alt="Foto Drink EVANESCENCE"><p class="descrição__texto__carrossel">Este é um drink que mistura o frescor da uva e hortelâ com um delicioso licor de cereja.</p></div>
+                <div class="swiper-slide"><p class="slide__legenda">led zepellin</p><img class="swiper-slide__imagem" id="drink-ledzepellin" src="/assets/img/Drink-foto.jpeg" alt="Foto Drink Led Zepellin"><p class="descrição__texto__carrossel">Neste drink encontramos a mistura do dulçor do abacaxi e morango com o punch aromático da canela.</p></div>
+                <div class="swiper-slide"><p class="slide__legenda">Nirvana</p><img class="swiper-slide__imagem" src="/assets/img/drink rosa.jpeg" alt="Foto Drink Nirvana"><p class="descrição__texto__carrossel">Este é um drink que mistura o frescor da melância com o cítrico do gengibre. </p></div>
+                <div class="swiper-slide"><p class="slide__legenda">Aerosmith</p><img class="swiper-slide__imagem" src="/assets/img/IMG_4244.jpg" alt="Foto Drink Aerosmith"><p class="descrição__texto__carrossel">Este refrescante drink trás uma mistura de limão, uva e rúcula.</p></div>
+                <div class="swiper-slide"><p class="slide__legenda">Guns n' Roses</p><img class="swiper-slide__imagem" src="/assets/img/IMG_4261.jpg" alt="Foto Drink Guns n' roses"><p class="descrição__texto__carrossel">Neste drink temos a combinação do cítrico do limão e abacaxi junto com a baunilha, formando uma combinação irresistível.</p></div>
+                <div class="swiper-slide"><p class="slide__legenda">Pink Floyd</p><img class="swiper-slide__imagem" src="/assets/img/IMG_4270.jpg" alt="Foto Drink Pink Floyd"> <p class="descrição__texto__carrossel">Excelente para os dias mais quentes, este drink conta com uma combinação de saquê, frutas e licor de pêssego.</p></div>
+                <div class="swiper-slide"><p class="slide__legenda">Red Hot CHilli Peppers</p><img class="swiper-slide__imagem" src="/assets/img/IMG_4282.jpg" alt="Foto Drink Red Hot Chilli Peppers"> <p class="descrição__texto__carrossel">Este drink temos a combinação de morango, maracujá com um mix de pimentas, trazendo um aroma e sabor indescritíveis.</p></div>
+
+            
+                </div>
+    
+
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            
+                <!-- If we need scrollbar -->
+                <div class="swiper-scrollbar"></div>
+            </div>
+            </div>
+            <div class = "botoes">
+                <a href="pacotes.html" class="botoes__ancora" id="botão-pacotes" target="_blank">Conheça nossos pacotes</a>
+            </div>
+            </div>
+
+<!-- <section class="banner2">
+    <div class="banner2__descrição" id="pacotes">
+        <h2 class="banner2__titulo2">Pacotes</h2>
+
+        <div class="swiper">
+        
+            <div class="swiper-pagination"></div>
+           
+            <div class="swiper-wrapper">
+
+            <div class="swiper-slide"><h3 class="slide__legenda2">Pacote Light</h3><img class="swiper-slide__imagem2" src="/assets/img/Ideia Pacotes.png" alt="Foto pacote light"></div>
+            <div class="swiper-slide"><h3 class="slide__legenda2">Pacote Light</h3><img class="swiper-slide__imagem2" src="/assets/img/Ideia Pacotes.png" alt="Foto pacote light"></div>
+            <div class="swiper-slide"><h3 class="slide__legenda2">Pacote Light</h3><img class="swiper-slide__imagem2" src="/assets/img/Ideia Pacotes.png" alt="Foto pacote light"></div>
+            <div class="swiper-slide"><h3 class="slide__legenda2">Pacote Light</h3><img class="swiper-slide__imagem2" src="/assets/img/Ideia Pacotes.png" alt="Foto pacote light"></div>
+            <div class="swiper-slide"><h3 class="slide__legenda2">Pacote Light</h3><img class="swiper-slide__imagem2" src="/assets/img/Ideia Pacotes.png" alt="Foto pacote light"></div>
+             
+        
+            </div>
+
+        
+          
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        
+  
+            <div class="swiper-scrollbar"></div>
+        </div>
+    </section> -->
+<section class="carrossel">
+
+<div class="card">
+    
+    <div class="card__descrição">
+        <!--1ª coluna-->
+        <div class="descrição" id="estruturas">
+            
+            <h2 class="carrossel__titulo">Nossas Estruturas :</h2>
+            <h3 class="descrição__titulo">Nós seguimos uma linha<span class="descrição__titulo__sublinhar"> Italiana </span>com balcões mais baixos para que o cliente possa ter contato visual direto com o bartender, podendo visualizar nitidamente o preparo do seu drink.</h3>
+            <p class="carrossel__texto">Confira nossas Estruturas:</p>
+        </div>
+        </div>
+        <p class="carrossel__texto"></p>
+        <div class="carrossel__card">
+            
+            <div class="swiper">
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide"><img class="swiper-slide__imagem" src="/assets/img/balcao-branco-horizontal.jpeg" alt="Foto balcão de madeira"></a></div>
+                <div class="swiper-slide"><img class="swiper-slide__imagem" src="/assets/img/balcao-preto-horizontal.jpeg" alt="Foto balcão de madeira"></a></div>
+                <div class="swiper-slide"><img class="swiper-slide__imagem" src="/assets/img/balcao-pretoebranco-horizontal.jpeg" alt="Foto balcão de madeira"></a></div>
+                <div class="swiper-slide"><img class="swiper-slide__imagem" src="/assets/img/balcao-madeirinha-horizontal.jpeg" alt="Foto balcão preto"></div>
+                <div class="swiper-slide"><img class="swiper-slide__imagem" src="/assets/img/balcão-vermelho-horizontal.jpeg" alt="Foto balcão rústico"></div>
+                <div class="swiper-slide"><img class="swiper-slide__imagem" src="/assets/img/balcao-verde2-horizontal.jpeg" alt="Foto balcão verde escuro"></div>
+                <div class="swiper-slide"><img class="swiper-slide__imagem" src="/assets/img/balcao-verde1-horinzotal.jpeg" alt="Foto balcão branco">
+    
+            </div>
+                <div class="swiper-slide"><img class="swiper-slide__imagem" src="/assets/img/balcao-rusticogrande-horizontal.jpeg" alt="Foto balcão de madeira">
+            </div>
+                <div class="swiper-slide"><img class="swiper-slide__imagem" src="/assets/img/balcao-verde-horizontal.jpeg" alt="foto balcão rústico">
+            </div>
+                <div class="swiper-slide"><img class="swiper-slide__imagem" src="/assets/img/balcao-rustico-horizontal.jpeg" alt="foto balcão rústico">
+            </div>
+            
+                </div>
+    
+            
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            
+                <!-- If we need scrollbar -->
+                <div class="swiper-scrollbar"></div>
+                
+            </div>
+                   
+</div>
+<div class="card__botoes">
+    <a href="https://api.whatsapp.com/send?phone=5512982882276&text=Ol%C3%A1!%20Gostaria%20de%20Solicitar%20um%20or%C3%A7amento!%20:" class="botoes__ancora" id="botão-carrosel" target="_blank">Solicite já seu orçamento!!!</a>
+</div>
+</div>
+
+
+   </section>
+        <div class="card">
+            <!--1ª linha-->
+            <div class="card__descrição">
+                <!--1ª coluna-->
+                <div class="descrição">
+                    <h3 class="carrossel__titulo">Equipe Rockbar</h3>
+                    <div class="descrição__fotos">
+                        <img src="/assets/img/barmans.jpeg" alt="4 Barmans posando para a foto" class="descrição__img">
+                        <img src="/assets/img/barmans-trabalhando.jpg" alt="4 Barmans posando para a foto" class="descrição__img">
+                        <img src="/assets/img/Foto-Bargirldrink.jpeg" alt="4 Barmans posando para a foto" class="descrição__img">
+                        <img src="/assets/img/barmanspose.jpg" alt="4 Barmans posando para a foto" class="descrição__img">
+                        <img src="/assets/img/equipe-rocbar.jpeg" alt="4 Barmans posando para a foto" class="descrição__img">
+                        <img src="/assets/img/equipe-vivale.jpeg" alt="4 Barmans posando para a foto" class="descrição__img">
+                        
+                    </div>
+
+                    <h2 class="descrição__equipe">Nossa equipe conta com os mais preparados bartenders sempre dispostos e atenciosos para que você tenha uma experiência inesquecível!</h2>
+                </div>
+                </div>
+            </div>
+
+    <section class="banner3">
+        <div class="banner3__fedbacks">
+        <h2 class="banner3__titulo">Feedbacks</h2>
+
+        <ul class="feedbacks">            
+
+            <li class="lista-feedbacks">     
+            
+                <h3 class="lista-titulo">" Bebidas Maravilhosas</h3>
+                <p class="lista-texto">Escolhi para meu casamento a opção sem álcool e foi sucesso absoluto. Atendimento excelente, ótima organização, drinks deliciosos. Super recomendo! </p>
+                <h3 class="lista-legenda">Fernanda M. <br> Casou 12/11/2023 "</h3>
+            </li> 
+            <li class="lista-feedbacks"> 
+                <h3 class="lista-titulo">" Qualidade, eficiência e criatividade 100%</h3>
+                <p class="lista-texto">Fui cliente há duas semanas atrás em meu casamento e sou muito grato por todo o serviço e trabalho prestado. Equipe fantástica e drinks maravilhosos!! </p>
+                <h3 class="lista-legenda">Magnum M. <br> Casou 11/11/2023 "</h3>
+            </li>
+
+       
+            <li class="lista-feedbacks">
+                <h3 class="lista-titulo">" Melhor escolha das nossas vidas</h3>
+                <p class="lista-texto">Excelentes profissionais, seguraram nossa festa nas costas. Desde o primeiro contato, degustação e entrega. Fizeram tudo conforme o combinado, tivemos a infelicidade de cair do golpe da elofestas e graças a rockbartender nossa festa não foi arruinada de vez. Não temos palavras para agradecer! Recomendo muito para todas as festas! Com certeza fará parte da história! </p>
+                <h3 class="lista-legenda">Thais A. <br> Casou 04/11/2023 "</h3>
+            </li>
+        </ul>
+        <div class="banner3__botao">
+            <h3 class="banner3__subtitulo">Confira mais alguns feedbacks no site</h3>
+            <a href="https://www.casamentos.com.br/bebidas-casamento/rock-bar-bartender--e370837" target="_blank"><img class="banner3__img" src="assets/img/gen_logoHeader.svg" alt="Logo do site casamentos.com.br"></a>
+        </div>
+
+    </section>
+    <section class="informações" id="contato">        
+        <div class="informações__descrição">
+            <h2 class="informações__titulo">Estamos Localizados:</h2>
+            <p class="informações__texto">📍Rua dos Ciclâmes, 61 Jd Motorama, São José dos Campos - SP </p> 
+        </div>
+        <div class="informações__descrição">
+            <h2 class="informações__titulo">Gostou?! Agende já sua degustação!</h2>
+            <p class="informações__texto">Horário de Funcionamento</p>      
+            <p class="informações__texto">Segunda a Sexta</p>      
+            <p class="informações__texto">🕤09:00 am á 21:00 pm</p>  
+        </div>  
+        
+        <div class="informações__botao">
+            <h2 class="informações__titulo2">Vamos de Rock?!!</h2> 
+            <a class="informações__botao__orçamento" href="https://api.whatsapp.com/send?phone=5512982882276&text=Ol%C3%A1!%20Gostaria%20de%20Solicitar%20um%20or%C3%A7amento!%20:" target="_blank">Agende sua Degustação!</a> 
+        </div>
+ 
+    </section>
+
+   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+   <script src="script.js"></script>
+</body>
+
+<footer class="rodapé">
+    <h2 class="rodapé__titulo">Contatos e Redes Sociais</h2>
+    <div class="rodapé__informações">
+        <a href="#"><img class="rodapé__img" id="logo__rock" src="/assets/img/Logo Rockbar.png" alt="Logo do rockbarbartender"></a>
+        <a href="https://api.whatsapp.com/send?phone=5512982882276&text=Ol%C3%A1!%20Gostaria%20de%20Solicitar%20um%20or%C3%A7amento!%20:"target="_blank"><img class="rodapé__img" id="logo__wpp" src="/assets/img/WhatsApp-Logo.wine.png" alt="Logo do whatsapp"></a>
+        <a href="https://www.instagram.com/rockbarbartender/" target="_blank"><img class="rodapé__img" id="logo__insta" src="/assets/img/insta_logo.png.png" alt="Logo do instagram"></a>
+        <a href="https://www.casamentos.com.br/bebidas-casamento/rock-bar-bartender--e370837" target="_blank" ><img class="rodapé__img" id="logo__casamentos" src="/assets/img/casamentos-logo.png" alt="Logo do casamentos.com"></a>
+    </div>
+    <div class="rodapé__contatos">
+        <a href="tel:5512982882276" class="rodapé__link"><p>📞 (12) 98288-2276 </p></a>
+        <a href="mailto:Rockbareventos@gmail.com" target="_blank" class="rodapé__link"><p></p>📧 RockBar Bartender</a>
+    </div>
+    <div class="dev">
+        <a class="dev__link" href="https://github.com/LincolnMota07">Desenvolvido por <br> Lincoln Mota</a>
+    </div>
+
+
+</footer>
+
+</html>
