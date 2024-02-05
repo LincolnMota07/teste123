@@ -122,16 +122,16 @@
    @media screen and (min-width: 1728px) {
 
     #logo__rock {
-        width: 150px;
+        width: 50px;
        }
        #logo__wpp {
-        width: 190px;
+        width: 90px;
        }
        #logo__insta {
-        width: 180px;
+        width: 80px;
        }
        #logo__casamentos {
-        width: 150px;
+        width: 50px;
        }
 
        .rodapé__titulo {
@@ -140,8 +140,8 @@
        }
 
        .rodapé__link {
-        font-size: 36px;
-        margin: 2em 0;
+        font-size: 20px;
+        margin: 1em 0;
        }
 
        .dev {
@@ -150,8 +150,25 @@
         text-align: center;
        }
        .dev__link {
-        margin: 2em 0;
-        font-size: 30px;
+        margin: 0;
+        font-size: 16px;
+       }
+
+       .rodapé__informações{
+        margin: 0 10em;
+        justify-content: center;
+        gap: 1em;
+        
+       }
+
+       .rodapé__contatos {
+        justify-content: center;
+        gap: 4em;
+       }
+
+       .rodapé__titulo{
+        margin-top: 1em;
+        font-size: 20px;
        }
 
    }

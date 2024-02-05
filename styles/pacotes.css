@@ -166,7 +166,7 @@
 .rodapé-pacotes3{
     color: var(--branco-principal);
     padding: 2em 1em;
-    background: var(--amarelo-claro-degrade2);
+    background: var(--amarelo-claro-degrade);
     text-align: center;
 
 }
@@ -241,10 +241,166 @@ span{
     justify-content: center;
     gap: 1em;
     padding: 1em 2em;
-    background: var(--amarelo-claro-degrade);
+    background: var(--amarelo);
 }
 .foto-drink {
     width: 30%;
     border-radius: 8px;
     background: var(--laranja-claro);
+}
+
+@media screen and (min-width: 1024px) {
+    .pacotes,
+    .pacotes1,
+    .pacotes2,
+    .pacotes3,
+    .pacotes4,
+    .pacotes5
+    {
+        padding: 5em 0;
+        
+    }
+
+    .pacotes__titulo {
+        font-size: 42px;
+    }
+
+    .pacotes-titulo,
+    .pacotes-titulo2,
+    .pacotes-titulo3,
+    .pacotes-titulo4,
+    .pacotes-titulo5
+    {
+        margin: 2em 0 1em 0;
+        font-size: 28px;
+    }
+
+    .pacotes-drinks,
+    .pacotes-drinks3,
+    .pacotes-drinks2
+    {
+        font-size: 24px;
+        padding: 1em 1em;
+    }
+
+    .pacotes-drinks-autorais {
+        font-size: 24px;
+    }
+
+    span {
+        font-size: 20px;
+    }
+
+    .pacotes__descrição__titulo {
+        font-size: 24px;
+        line-height: 30px;
+        margin: 0 0 2em 0;
+        padding: 0 2em;
+    }
+
+    .botao__pacote {
+        font-size: 24px;
+
+    }
+
+    .pacotes-drinks3 {
+        padding: 0 0.5;
+        margin: 0;
+    }
+
+    .botao__pacote:hover{
+        opacity: 0.8;
+
+    }
+}
+
+@media screen and (min-width: 1728px) {
+    .pacotes,
+    .pacotes1,
+    .pacotes2,
+    .pacotes3,
+    .pacotes4,
+    .pacotes5
+    {
+        padding: 2em 0;
+        
+    }
+
+    .pacotes__titulo {
+        font-size: 36px;
+    }
+
+    .pacotes-titulo,
+    .pacotes-titulo2,
+    .pacotes-titulo3,
+    .pacotes-titulo4,
+    .pacotes-titulo5
+    {
+        margin-top: 1em;
+        font-size: 28px;
+    }
+
+    .pacotes-drinks,
+    .pacotes-drinks3,
+    .pacotes-drinks2
+    {
+        font-size: 20px;
+        padding: 0.5em 3em;
+        margin-bottom: 2em;
+    }
+
+    .pacotes-drinks-autorais {
+        font-size: 24px;
+    }
+
+    span {
+        font-size: 20px;
+    }
+
+    .pacotes__descrição__titulo {
+        font-size: 24px;
+        line-height: 30px;
+        padding: 0em;
+    }
+
+    .botao__pacote {
+        font-size: 24px;
+
+    }
+
+    .pacotes-drinks3 {
+        padding: 0 0.5em;
+        margin: 0;
+    }
+
+    .pacotes-drinks2 {
+        padding: 0 1em;
+    }
+
+    .pacotes-lista{
+        padding: 0 6em;
+        margin: 1em 2em;
+    }
+
+    .pacotes-lista2 {
+        padding: 0 6em;
+        margin: 0em 0em;
+    }
+
+    .foto-drink {
+        width: 13%;
+        margin: 0 1em;
+    }
+    .drinks-img{
+        padding: 2em 15em;
+    }
+
+    .rodapé-pacotes,
+    .rodapé-pacotes2,
+    .rodapé-pacotes3,
+    .rodapé-pacotes4,
+    .rodapé-pacotes5 {
+        padding: 2em 12em;
+    } 
+
 }

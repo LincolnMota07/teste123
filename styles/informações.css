@@ -113,6 +113,10 @@
 
 @media screen and (min-width: 1728px) {
 
+    .informações {
+        padding: 2em 10em;
+    }
+
     .informações__botao__orçamento {
         font-size: 28px;
     }
@@ -134,6 +138,9 @@
     .informações__titulo2 {
         font-size: 36px;
     }
+
+
+
 
     
 }

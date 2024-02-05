@@ -11,7 +11,6 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Kalnia:wght@100..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
-
 </head>
 
 <body>
@@ -36,7 +35,7 @@
                 <a href="#contato" class="lista-menu__link">CONTATO</a>
             </li>
             <li class="lista-menu__item">
-                <a href="#" class="lista-menu__link" id="sobre-menu">SOBRE</a>
+                <a href="#sobre" class="lista-menu__link" id="sobre-menu">SOBRE</a>
             </li>
         </ul>
         <img src="/assets/img/Logo Rockbar.png" alt="Logo do Rockbar" class="cabecalho__imagem">
@@ -44,7 +43,7 @@
     </div>
     
     <ul class="opções">
-        <li class="opções__item"><a href="#drinks" class="opções__link">Sobre</a></li>
+        <li class="opções__item"><a href="#sobre" class="opções__link">Sobre</a></li>
         <li class="opções__item"><a href="pacotes.html" class="opções__link">Pacotes</a></li>
         <li class="opções__item"><a href="#drinks" class="opções__link">Drinks</a></li>
         <li class="opções__item"><a href="#estruturas" class="opções__link">Estruturas</a></li>
@@ -60,10 +59,11 @@
    </section>
    
    <section class="apresentação">
+    <h2 class="card__titulo">Sobre :</h2>
     <div class="card-video">
-        <h2 class="card__titulo">Sobre :</h2>
         <p class="card__texto">Somos um bar especializado em eventos de todos os portes, desde pequenos encontros até grandes celebrações. Nossa missão é proporcionar experiências inesquecíveis por meio das melhores estruturas e dos profissionais mais qualificados. Conte conosco para tornar o seu evento verdadeiramente memorável.</p>
-        <div class="phone">           
+        <div class="card-phone">
+            <div class="phone">           
             <video id="myVideo" autoplay loop muted>
               <source src="/assets/video/video-bar.mp4" type="video/mp4">
               Seu navegador não suporta vídeo HTML5.
@@ -72,6 +72,8 @@
             <button id="playPauseBtn">Pause</button>
             </div>
         </div>
+        </div>
+
     </div>
 
    </section>
@@ -122,34 +124,6 @@
             </div>
             </div>
 
-<!-- <section class="banner2">
-    <div class="banner2__descrição" id="pacotes">
-        <h2 class="banner2__titulo2">Pacotes</h2>
-
-        <div class="swiper">
-        
-            <div class="swiper-pagination"></div>
-           
-            <div class="swiper-wrapper">
-
-            <div class="swiper-slide"><h3 class="slide__legenda2">Pacote Light</h3><img class="swiper-slide__imagem2" src="/assets/img/Ideia Pacotes.png" alt="Foto pacote light"></div>
-            <div class="swiper-slide"><h3 class="slide__legenda2">Pacote Light</h3><img class="swiper-slide__imagem2" src="/assets/img/Ideia Pacotes.png" alt="Foto pacote light"></div>
-            <div class="swiper-slide"><h3 class="slide__legenda2">Pacote Light</h3><img class="swiper-slide__imagem2" src="/assets/img/Ideia Pacotes.png" alt="Foto pacote light"></div>
-            <div class="swiper-slide"><h3 class="slide__legenda2">Pacote Light</h3><img class="swiper-slide__imagem2" src="/assets/img/Ideia Pacotes.png" alt="Foto pacote light"></div>
-            <div class="swiper-slide"><h3 class="slide__legenda2">Pacote Light</h3><img class="swiper-slide__imagem2" src="/assets/img/Ideia Pacotes.png" alt="Foto pacote light"></div>
-             
-        
-            </div>
-
-        
-          
-            <div class="swiper-button-prev"></div>
-            <div class="swiper-button-next"></div>
-        
-  
-            <div class="swiper-scrollbar"></div>
-        </div>
-    </section> -->
 <section class="carrossel">
 
 <div class="card">
@@ -172,23 +146,22 @@
                 <!-- Additional required wrapper -->
                 <div class="swiper-wrapper">
                 <!-- Slides -->
-                <div class="swiper-slide"><img class="swiper-slide__imagem" src="/assets/img/balcao-branco-horizontal.jpeg" alt="Foto balcão de madeira"></a></div>
-                <div class="swiper-slide"><img class="swiper-slide__imagem" src="/assets/img/balcao-preto-horizontal.jpeg" alt="Foto balcão de madeira"></a></div>
-                <div class="swiper-slide"><img class="swiper-slide__imagem" src="/assets/img/balcao-pretoebranco-horizontal.jpeg" alt="Foto balcão de madeira"></a></div>
-                <div class="swiper-slide"><img class="swiper-slide__imagem" src="/assets/img/balcao-madeirinha-horizontal.jpeg" alt="Foto balcão preto"></div>
-                <div class="swiper-slide"><img class="swiper-slide__imagem" src="/assets/img/balcão-vermelho-horizontal.jpeg" alt="Foto balcão rústico"></div>
-                <div class="swiper-slide"><img class="swiper-slide__imagem" src="/assets/img/balcao-verde2-horizontal.jpeg" alt="Foto balcão verde escuro"></div>
-                <div class="swiper-slide"><img class="swiper-slide__imagem" src="/assets/img/balcao-verde1-horinzotal.jpeg" alt="Foto balcão branco">
-    
-            </div>
-                <div class="swiper-slide"><img class="swiper-slide__imagem" src="/assets/img/balcao-rusticogrande-horizontal.jpeg" alt="Foto balcão de madeira">
-            </div>
-                <div class="swiper-slide"><img class="swiper-slide__imagem" src="/assets/img/balcao-verde-horizontal.jpeg" alt="foto balcão rústico">
+                <div class="swiper-slide"><img class="swiper-slide__imagem" src="/assets/img/balcao-verde-horizontal.jpeg" alt="foto balcão verde grande">
+                </div>
+                <div class="swiper-slide"><img class="swiper-slide__imagem" src="/assets/img/balcao-rusticogrande-horizontal.jpeg" alt="Foto balcão rústico grande com copos de vidro em cima">
+                </div>
+                <div class="swiper-slide"><img class="swiper-slide__imagem" src="/assets/img/balcão-vermelho-horizontal.jpeg" alt="Foto balcão vermelho iluminado"></div>
+                <div class="swiper-slide"><img class="swiper-slide__imagem" src="/assets/img/balcao-branco-horizontal.jpeg" alt="Foto balcão branco iluminado"></a></div>
+                <div class="swiper-slide"><img class="swiper-slide__imagem" src="/assets/img/balcao-preto-horizontal.jpeg" alt="Foto balcão preto"></a></div>
+                <div class="swiper-slide"><img class="swiper-slide__imagem" src="/assets/img/balcao-pretoebranco-horizontal.jpeg" alt="Foto balcões preto e branco perfilados"></a></div>
+                <div class="swiper-slide"><img class="swiper-slide__imagem" src="/assets/img/balcao-madeirinha-horizontal.jpeg" alt="Foto balcão rústico pequeno"></div>
+                <div class="swiper-slide"><img class="swiper-slide__imagem" src="/assets/img/balcao-verde2-horizontal.jpeg" alt="Foto balcão verde escuro médio"></div>
+                <div class="swiper-slide"><img class="swiper-slide__imagem" src="/assets/img/balcao-verde1-horinzotal.jpeg" alt="Foto balcão verde escuro pequeno">
             </div>
                 <div class="swiper-slide"><img class="swiper-slide__imagem" src="/assets/img/balcao-rustico-horizontal.jpeg" alt="foto balcão rústico">
             </div>
             
-                </div>
+        </div>
     
             
                 <!-- If we need navigation buttons -->
@@ -202,7 +175,7 @@
                    
 </div>
 <div class="card__botoes">
-    <a href="https://api.whatsapp.com/send?phone=5512982882276&text=Ol%C3%A1!%20Gostaria%20de%20Solicitar%20um%20or%C3%A7amento!%20:" class="botoes__ancora" id="botão-carrosel" target="_blank">Solicite já seu orçamento!!!</a>
+    <a href="https://api.whatsapp.com/send?phone=5512992034738&text=Ol%C3%A1!%20Gostaria%20de%20Solicitar%20um%20or%C3%A7amento!%20:" class="botoes__ancora" id="botão-carrosel" target="_blank">Solicite já seu orçamento!!!</a>
 </div>
 </div>
 
@@ -274,7 +247,7 @@
         
         <div class="informações__botao">
             <h2 class="informações__titulo2">Vamos de Rock?!!</h2> 
-            <a class="informações__botao__orçamento" href="https://api.whatsapp.com/send?phone=5512982882276&text=Ol%C3%A1!%20Gostaria%20de%20Solicitar%20um%20or%C3%A7amento!%20:" target="_blank">Agende sua Degustação!</a> 
+            <a class="informações__botao__orçamento" href="https://api.whatsapp.com/send?phone=5512992034738&text=Ol%C3%A1!%20Gostaria%20de%20Solicitar%20um%20or%C3%A7amento!%20:" target="_blank">Agende sua Degustação!</a> 
         </div>
  
     </section>
@@ -287,12 +260,12 @@
     <h2 class="rodapé__titulo">Contatos e Redes Sociais</h2>
     <div class="rodapé__informações">
         <a href="#"><img class="rodapé__img" id="logo__rock" src="/assets/img/Logo Rockbar.png" alt="Logo do rockbarbartender"></a>
-        <a href="https://api.whatsapp.com/send?phone=5512982882276&text=Ol%C3%A1!%20Gostaria%20de%20Solicitar%20um%20or%C3%A7amento!%20:"target="_blank"><img class="rodapé__img" id="logo__wpp" src="/assets/img/WhatsApp-Logo.wine.png" alt="Logo do whatsapp"></a>
+        <a href="https://api.whatsapp.com/send?phone=5512992034738&text=Ol%C3%A1!%20Gostaria%20de%20Solicitar%20um%20or%C3%A7amento!%20:"target="_blank"><img class="rodapé__img" id="logo__wpp" src="/assets/img/WhatsApp-Logo.wine.png" alt="Logo do whatsapp"></a>
         <a href="https://www.instagram.com/rockbarbartender/" target="_blank"><img class="rodapé__img" id="logo__insta" src="/assets/img/insta_logo.png.png" alt="Logo do instagram"></a>
         <a href="https://www.casamentos.com.br/bebidas-casamento/rock-bar-bartender--e370837" target="_blank" ><img class="rodapé__img" id="logo__casamentos" src="/assets/img/casamentos-logo.png" alt="Logo do casamentos.com"></a>
     </div>
     <div class="rodapé__contatos">
-        <a href="tel:5512982882276" class="rodapé__link"><p>📞 (12) 98288-2276 </p></a>
+        <a href="tel:5512992034738" class="rodapé__link"><p>📞 (12) 99203-4738 </p></a>
         <a href="mailto:Rockbareventos@gmail.com" target="_blank" class="rodapé__link"><p></p>📧 RockBar Bartender</a>
     </div>
     <div class="dev">

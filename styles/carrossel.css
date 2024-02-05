@@ -233,13 +233,17 @@
     font-weight: 500;
 }
 
+.descrição__titulo__sublinhar{
+    font-size: 28px;
+}
+
 
 }
 
 @media screen and (min-width: 1728px) {
     .descrição__titulo {
         font-size: 36px;
-        margin-bottom: 1em;
+        margin-bottom: 0em;
 
     }
 
@@ -253,7 +257,7 @@
     }
 
     .botoes__ancora {
-        font-size: 28px;
+        font-size: 20px;
     }
 
     .carrossel__titulo {
@@ -266,11 +270,11 @@
     }
 
     .slide__legenda {
-        font-size: 28px;
+        font-size: 24px;
     }
 
     .descrição__texto__carrossel {
-        font-size: 24px;
+        font-size: 20px;
     }
 
     .carrossel__card {
@@ -295,6 +299,20 @@
     .descrição__equipe {
         font-size: 24px;
         text-align: center;
+        padding: 0em 5em;
+    }
+
+    .swiper-slide__imagem{
+        width: 100%;
+    }
+
+    #botão-carrosel {
+        font-size: 20px;
+        margin-top: 1em;
+    }
+    
+    .descrição__img {
+        width: 30%;
     }
 
 }
