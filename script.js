@@ -25,10 +25,10 @@ document.getElementById('playPauseBtn').addEventListener('click', function() {
   var video = document.getElementById('myVideo');
   if (video.paused) {
     video.play();
-    this.innerHTML = 'Pause';
+    this.innerHTML = '■';
   } else {
     video.pause();
-    this.innerHTML = 'Play';
+    this.innerHTML = '►';
   }
 });
 
