@@ -149,6 +149,9 @@
     color: var(--amarelo);
 }
 
+#img-estrutura {
+    height: 75%;
+}
 
 @media screen and (min-width: 1024px) {
 .swiper-button-prev,
