@@ -1,5 +1,5 @@
 .pacotes {
-    background-color: var(--laranja-claro);
+    background: var(--laranja-degrade);
     width: 100%;
     padding: 1em 0em;
     text-align: center;
@@ -7,7 +7,7 @@
 }
 
 .pacotes2 {
-    background-color: var(--amarelo-escuro);
+    background: var(--amarelo-degrade);
     width: 100%;
     padding: 1em 0;
     text-align: center;
@@ -15,7 +15,7 @@
     margin-top: 0.5em;
 }
 .pacotes3 {
-    background-color: var(--amarelo);
+    background: var(--amarelo-claro-degrade);
     width: 100%;
     padding: 1em 0;
     text-align: center;
@@ -23,7 +23,7 @@
     margin-top: 0.5em;
 }
 .pacotes4 {
-    background-color: var(--esmeralda2);
+    background: var(--esmeralda-degrade);
     width: 100%;
     padding: 1em 0;
     text-align: center;
@@ -31,7 +31,7 @@
     margin-top: 0.5em;
 }
 .pacotes5 {
-    background-color: var(--diamante2);
+    background: var(--diamante-degrade);
     width: 100%;
     padding: 1em 0;
     text-align: center;
@@ -49,51 +49,33 @@
 }
 
 .pacotes__descrição{
-    background: url(../assets/img/bg-teste.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
+    background-color: #DB6827;
     text-align: center;
     padding-top: 0.5em;
 
 }
 
 .pacotes__descrição2{
-    background: url(../assets/img/foto-bg1.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    text-align: center;
-    padding: 0.5em 0.5em 1.5em 0.5em;
-
-}
-.pacotes__descrição2{
-    background: url(../assets/img/foto-bg1.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
+    background-color: #DB8727;
     text-align: center;
     padding: 0.5em 0.5em 1.5em 0.5em;
 
 }
 .pacotes__descrição3{
-    background: url(../assets/img/noivos-felizes.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
+    background-color: #F08C1F;
     text-align: center;
     padding: 0.5em;
 
 }
 
 .pacotes__descrição4{
-    background: url(../assets/img/foto-bg3.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
+    background-color: #026920;
     text-align: center;
     padding: 0.5em 0.5em 1.5em 0.5em;
 
 }
 .pacotes__descrição5{
-    background: url(../assets/img/foto-bg2.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
+    background-color: #163063;
     text-align: center;
     padding: 0.5em 0.5em 1.5em 0.5em;
 
@@ -111,31 +93,31 @@
     gap: 0.3em;
 }
 .pacotes-titulo{
-    color: var(--laranja-claro);
+    color: #F0C41F;
     font-size: 20px;
     font-weight: 700;
     margin-bottom: 0.3em;
 }
 .pacotes-titulo2{
-    color: var(--amarelo-escuro);
+    color: #F0DE1F;
     font-size: 20px;
     font-weight: 700;
     margin-bottom: 1em;
 }
 .pacotes-titulo3{
-    color: var(--amarelo);
+    color: #F0DE1F;
     font-size: 20px;
     font-weight: 700;
     margin-bottom: 0.2em;
 }
 .pacotes-titulo4{
-    color: var(--esmeralda);
+    color: #02EB2C;
     font-size: 20px;
     font-weight: 700;
     margin-bottom: 0.2em;
 }
 .pacotes-titulo5{
-    color: var(--diamante);
+    color: #09D9E0;
     font-size: 20px;
     font-weight: 700;
     margin-bottom: 0.2em;
@@ -241,7 +223,7 @@ span{
     justify-content: center;
     gap: 1em;
     padding: 1em 2em;
-    background: var(--amarelo);
+    background: #F08C1F;
 }
 .foto-drink {
     width: 30%;
@@ -290,6 +272,8 @@ span{
     span {
         font-size: 20px;
     }
+
+
 
     .pacotes__descrição__titulo {
         font-size: 24px;
