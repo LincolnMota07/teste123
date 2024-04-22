@@ -78,6 +78,7 @@
 .container__titulo {
     display: none;
     text-decoration: none;
+    color: black;
 }
 
 .opções {
