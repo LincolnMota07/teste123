@@ -213,14 +213,14 @@
 
     .opções{
         gap: 3em;
-        ali
+        
     }
     .opções__link{
         font-size: 22px;
         
     }
     .cabecalho__imagem {
-        margin-left: 4em;
+        margin-left: 8em;
     }
 
 }
