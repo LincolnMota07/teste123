@@ -1,4 +1,8 @@
 
+a {
+    text-decoration: none;
+}
+
 .cabecalho__menu-hamburguer {
     width: 40px;
     height: 40px;
