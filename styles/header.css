@@ -135,7 +135,8 @@
 
     .opções{
         display: flex;
-        justify-content: space-between;
+        justify-content: space-evenly;
+        margin-left: 14em;
         
 
     }
@@ -212,6 +213,7 @@
 
     .opções{
         gap: 3em;
+        ali
     }
     .opções__link{
         font-size: 22px;
