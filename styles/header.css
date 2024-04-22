@@ -136,7 +136,7 @@
     .opções{
         display: flex;
         justify-content: space-between;
-        margin-right: 4em;
+        
 
     }
     
@@ -212,6 +212,7 @@
 
     .opções__link{
         font-size: 22px;
+        margin-right: 3.5em;
         
         
     }
